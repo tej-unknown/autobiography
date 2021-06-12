@@ -1,0 +1,68 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+  
+body{
+ font-style:italic; 
+  background-color:black;
+  color:white;
+  font-size:30px;
+ 
+}
+  #img-caption{
+    text-align:center;
+}
+  #title{
+text-align:center;
+    padding:10px;
+  }
+  #img-div{
+    background-color:#0f0f0f;
+    padding:50px 50px 50px 50px;
+
+    
+  }
+  #quote{
+    text-align:center;
+    color:#4a4a4a;
+    font-weight:bold;
+  }
+  #name{
+    text-align:right;
+    margin:0px 50px;
+  }
+  #tribute-link{
+text-align:center;
+  }
+  #image{
+display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  }
+</style>
+<main id="main">
+  <h1 id="title">DR B.R AMBEDKAR</h1>
+  <figure id="img-div">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSdYSW0NhxdDBl5ui9FPNcdm_KgR49_7ZAw&usqp=CAU"  id ="image" alt="b.r ambedkar">
+    <figcaption id="img-caption">Bhimrao Ramji Ambedkar was an Indian jurist, economist, politician and social reformer.</figcaption>
+  </figure><br>
+  <section id="tribute-info"><ul>
+    <li>"Babasaheb Ambedkar is known as <strong>Bhimrao Ramji Ambedkar</strong> was a social reformer and inspired the Dalit Buddhist Movement in India."</li><br>
+    <li>"He is the<strong> father of the Indian constitution</strong> and the brain behind the drafting of the Indian Constitution."</li><br>
+    <li><strong>1947 </strong>"- He was the first law minister of the country."</li><br>
+    <li>"The terms fraternity, <strong>liberty and equality</strong> in the constitution was written by BR Ambedkar."</li><br>
+    <li>"BR Ambedkar was born on <strong>14th April in 1981</strong> in the central province, now known as Madhya Pradesh."</li><br>
+    <li><strong>1912 </strong>"- BR Ambedkar obtained his Political Science and Economics degree from the Bombay University"</li><br>
+    <li>"BR Ambedkar completed his post-graduate studies at <strong>Columbia University</strong> in the United States of America"</li><br>
+    <li><strong>1916 </strong>" - He studied Economics at the prestigious London School of Economics and worked on his doctoral thesis. "</li><br>
+    <li><strong>1956 </strong>" - He renounced Hinduism and became Buddhist in."</li><br>
+    <li>"He was the crusader and the true leader for the Dalit community in India and abolished the practice of <strong>untouchability</strong> and other social stigmas in the country.
+"</li><br>
+    </ul></section>
+  <article id ="quote">
+    “I measure the progress of a community by the degree of progress which women have achieved. ”
+    <br>  <div id="name">-DR B.R AMBEDKAR</div>
+  </article><p>If you have time, you should read more about this incredible human being on his 
+  <a href="https://en.wikipedia.org/wiki/B._R._Ambedkar" target="_blank" id="tribute-link" style="color:#949494">Wikipedia entry</a>.</p>
+</main>
